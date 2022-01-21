@@ -13,15 +13,15 @@
 > pip install git+https://github.com/bthornton191/adams_bin_converter
 ```
 ## Command Line Usage
-Convert a bin file to a cmd file using the following command line syntax:
+Convert a **.bin** file to a **.cmd** file using the following command line syntax:
 ```bash
 > python adams_bin_converter.py file_1.bin
 ```
-You may convert multiple files by passing multiple bin files like so:
+You may convert multiple **.bin** files like so:
 ```bash
 > python adams_bin_converter.py file_1.bin file_2.bin
 ```
-Use the following syntax if you installed via pip.
+Use the following syntax **if you installed via pip**.
 ```bash
 > python -m adams_bin_converter file1.bin
 ```
@@ -74,7 +74,7 @@ from adams_bin_converter import convert
 convert('path/bin_files/file_1.bin')
 ```
 You can use the same methods described above to specify the path to the mdi.bat file. For instance
-you can pass the path as an argument to the `convert` function like so
+you can pass the path as an argument to the `convert` function like so:
 ```python
 convert(
     bin_file = 'path/bin_files/file_1.bin',
