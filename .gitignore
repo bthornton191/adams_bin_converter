@@ -1,0 +1,9 @@
+/.vscode
+**__pycache__
+/env
+**.loq
+**.log
+test/files/*.cmd
+test/files/*.py
+test/files/*.bat
+test/files/*.bak
