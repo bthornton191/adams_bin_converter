@@ -1,5 +1,9 @@
 # Adams Bin Converter
 
+## New Features in v0.0.2
+1. Added feature to recognize version in bin file.
+2. Added feature to get multiple models out of a single .bin file
+
 ## Installation
 
 ### Option 1: Download the standalone script
@@ -28,7 +32,7 @@ Use the following syntax **if you installed via pip**.
 > Note: The newly created command file will be named after the model contained by the .bin file. 
 > If the .bin file contains **multiple models** then the program will create muiltiple .cmd files.
 
-### Letting the script find that path to the correct mdi.bat file based on the .bin file version \***NEW**\*
+### Letting the program find the path to the correct mdi.bat file based on the .bin file version \***NEW**\*
 In order for this to work you must tell the script where all of your adams installations are 
 located (e.g. C:/Program Files/MSC.Software/Adams). Adams will look for this location in the 
 following order:
