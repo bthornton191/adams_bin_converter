@@ -19,5 +19,5 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: Microsoft :: Windows",
     ],
-    install_requires = pkg.install_requires
+    install_requires=pkg.install_requires
 )

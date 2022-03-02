@@ -1,9 +1,9 @@
 import unittest
 import os
-from pathlib import Path
 import adams_bin_converter
 
 from test import TEST_BAD_CMD, TEST_GOOD_CMD_1, TEST_GOOD_CMD_2, TEST_GOOD_CMD_3
+
 
 class Test_GoodmvGoodev(unittest.TestCase):
 
@@ -21,7 +21,8 @@ class Test_GoodmvGoodev(unittest.TestCase):
 
     def tearDown(self):
         return
-    
+
+
 class Test_GoodmvNoev(unittest.TestCase):
 
     def setUp(self):
@@ -38,7 +39,8 @@ class Test_GoodmvNoev(unittest.TestCase):
 
     def tearDown(self):
         return
-    
+
+
 class Test_NomvGoodev(unittest.TestCase):
 
     def setUp(self):
@@ -54,7 +56,8 @@ class Test_NomvGoodev(unittest.TestCase):
 
     def tearDown(self):
         return
-    
+
+
 class Test_NomvNoev(unittest.TestCase):
 
     def setUp(self):
@@ -70,7 +73,8 @@ class Test_NomvNoev(unittest.TestCase):
 
     def tearDown(self):
         return
-    
+
+
 class Test_GoodmvBadev(unittest.TestCase):
 
     def setUp(self):
@@ -87,7 +91,8 @@ class Test_GoodmvBadev(unittest.TestCase):
 
     def tearDown(self):
         return
-    
+
+
 class Test_BadmvGoodev(unittest.TestCase):
 
     def setUp(self):
@@ -104,7 +109,8 @@ class Test_BadmvGoodev(unittest.TestCase):
 
     def tearDown(self):
         return
-    
+
+
 class Test_BadmvBadev(unittest.TestCase):
 
     def setUp(self):
